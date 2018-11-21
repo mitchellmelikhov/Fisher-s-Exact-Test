@@ -1,0 +1,15 @@
+d=matrix(c(20,30,40,50),2,2)
+dimnames=list(c("ROW1","ROW2"), c("COLUMN1", "COLUMN2"))
+
+fisher.test(d)
+
+	Fisher's Exact Test for Count Data
+
+data:  d
+p-value = 0.7219
+alternative hypothesis: true odds ratio is not equal to 1
+95 percent confidence interval:
+ 0.387069 1.777372
+sample estimates:
+odds ratio 
+ 0.8344185 
